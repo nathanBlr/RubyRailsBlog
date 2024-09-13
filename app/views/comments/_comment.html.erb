@@ -1,0 +1,8 @@
+<% unless comment.archived? %>
+<p>
+    <hr>
+    <strong>Commenter: <%= comment.commenter %></strong>
+    <br>
+    <strong>Message: <%= comment.body %></strong>
+    <hr>
+</p>
